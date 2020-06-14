@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5a91036fb1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="headerWrapper">
+          <div class="headerLogo">
+            <img src="img/header/logo.png" alt="" />
+          </div>
+          <nav class="headerNav">
+            <a href="#">Reality</a>
+            <a href="#">Living</a>
+            <a href="#">EduCation</a>
+            <a href="#">Entertainment</a>
+            <a href="#">Mobility</a>
+          </nav>
+          <span class="headerBurger">&#9776;</span>
+          <div class="searchCont">
+            <div class="headerSearch">
+              <i></i>
+            </div>
+            <form class="searchItem">
+              <input type="text" id="search" placeholder="Site search" />
+            </form>
+            <div class="headerLogIn">
+              <a href="#popupLogin">
+                <i></i>
+                <p>LOGIN</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="container">
+          <h2 class="headingIntro">What are you looking for?</h2>
+          <form action="path" class="introForm">
+            <div class="placeAndAffairWrapper">
+              <div class="place">
+                <div class="placeText">
+                  <h3 class="placeHeading">Dubai</h3>
+                  <div class="pointer">
+                    <img src="img/intro/pointer.png" alt="" />
+                  </div>
+                </div>
+                <div class="placeItem">
+                  <p class="btn">USA</p>
+                  <p class="btn">England</p>
+                  <p class="btn">France</p>
+                </div>
+              </div>
+              <div class="affair">
+                <div class="affairText">
+                  <h3 class="affairHeading">Education</h3>
+                  <div class="pointer">
+                    <img src="img/intro/pointer.png" alt="" />
+                  </div>
+                </div>
+                <div class="affairItem">
+                  <p class="btn">USA</p>
+                  <p class="btn">England</p>
+                  <p class="btn">France</p>
+                </div>
+              </div>
+            </div>
+            <input
+              type="text"
+              class="introSearch"
+              placeholder="Keyword, name, date, ..."
+            />
+            <input class="introSubmit" type="submit" value="SEARCH" />
+          </form>
+        </div>
+      </section>
+      <nav class="shopNav">
+        <div class="container">
+          <div class="shopWrapper">
+            <div class="shopBurgerCont">
+              <span class="shopNavBurger">&#9776;</span>
+            </div>
+            <div class="recommended">
+              <p><a href="#" class="recChosed">Recommended</a></p>
+              <p><a href="#">latest</a></p>
+              <p><a href="#">Highlights</a></p>
+            </div>
+            <div class="navMiddle">
+              <div class="navPlaceWrapper">
+                <div class="navPlace">
+                  <div class="navPlaceText">
+                    <h3 class="navPlaceHeading">Dubai</h3>
+                    <div class="pointer">
+                      <img src="img/shopNav/pointer.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="navPlaceItem">
+                    <p class="navBtn">USA</p>
+                    <p class="navBtn">England</p>
+                    <p class="navBtn">France</p>
+                  </div>
+                </div>
+              </div>
+              <button class="hideMap"><span>Hide Map</span><i></i></button>
+            </div>
+            <div class="navFilter">
+              <p>Filter:</p>
+              <div class="filterBtn" id="all">
+                <img src="img/shopNav/navIcons/1.png" alt="" />
+              </div>
+              <div class="filterBtn" id="sing">
+                <img src="img/shopNav/navIcons/2.png" alt="" />
+              </div>
+              <div class="filterBtn">
+                <img src="img/shopNav/navIcons/3.png" alt="" />
+              </div>
+              <div class="filterBtn" id="bus">
+                <img src="img/shopNav/navIcons/4.png" alt="" />
+              </div>
+              <div class="filterBtn" id="home">
+                <img src="img/shopNav/navIcons/5.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="posts">
+        <div class="container">
+          <div class="postItemsContainer">
+            <div class="postItemsWrapper">
+              <div class="postItem home">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/1.jpg" alt="" />
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/5.png" alt="" />
+                </div>
+                <div class="postItemText">
+                  <p>2 bedroom house for rent in Dubai</p>
+                  <h3>Vision Agency</h3>
+                </div>
+              </div>
+              <div class="postItem sing">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/1.jpg" alt="" />
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/2.png" alt="" />
+                </div>
+                <div class="postItemText">
+                  <p>Beach party festival 2014</p>
+                  <h3>Vision Agency</h3>
+                </div>
+              </div>
+              <div class="postItem bus">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/2.jpg" alt="" />
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/4.png" alt="" />
+                </div>
+                <div class="postItemText">
+                  <p>Aliquam quis pulvinar purus</p>
+                  <h3>Vision Agency</h3>
+                </div>
+              </div>
+              <div class="postItem home">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/3.jpg" alt="" />
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/5.png" alt="" />
+                </div>
+                <div class="postItemText">
+                  <p>4 bedroom house for rent in lore Dubai</p>
+                  <h3>Vision Agency</h3>
+                </div>
+              </div>
+              <div class="postItem home double">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/4.jpg" alt="" />
+                  <div class="pstImgHeading">
+                    <h3>Vision agency</h3>
+                  </div>
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/5.png" alt="" />
+                </div>
+                <div class="doubleWrapper">
+                  <div class="doubleImg">
+                    <img src="img/posts/doubleImg/1.jpg" alt="" />
+                  </div>
+                  <div class="doubleItemText">
+                    <h3>Lucy-P</h3>
+                    <p>
+                      “Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim
+                      faucibus, quis posuere orci ornare. Duis mattis sagittis
+                      fringilla.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="postItem sing double">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/5.jpg" alt="" />
+                  <div class="pstImgHeading">
+                    <h3>Skybox club</h3>
+                  </div>
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/2.png" alt="" />
+                </div>
+                <div class="doubleWrapper">
+                  <div class="doubleImg">
+                    <img src="img/posts/doubleImg/1.jpg" alt="" />
+                  </div>
+                  <div class="doubleItemText">
+                    <h3>Peter145</h3>
+                    <p>
+                      “Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim
+                      faucibus, quis posuere orci ornare. Duis mattis sagittis
+                      fringilla.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="postItem home">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/1.jpg" alt="" />
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/5.png" alt="" />
+                </div>
+                <div class="postItemText">
+                  <p>2 bedroom house for rent in Dubai</p>
+                  <h3>Vision Agency</h3>
+                </div>
+              </div>
+              <div class="postItem sing">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/1.jpg" alt="" />
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/2.png" alt="" />
+                </div>
+                <div class="postItemText">
+                  <p>Beach party festival 2014</p>
+                  <h3>Vision Agency</h3>
+                </div>
+              </div>
+              <div class="postItem bus">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/2.jpg" alt="" />
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/4.png" alt="" />
+                </div>
+                <div class="postItemText">
+                  <p>Aliquam quis pulvinar purus</p>
+                  <h3>Vision Agency</h3>
+                </div>
+              </div>
+              <div class="postItem home">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/3.jpg" alt="" />
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/5.png" alt="" />
+                </div>
+                <div class="postItemText">
+                  <p>4 bedroom house for rent in lore Dubai</p>
+                  <h3>Vision Agency</h3>
+                </div>
+              </div>
+              <div class="postItem sing double">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/4.jpg" alt="" />
+                  <div class="pstImgHeading">
+                    <h3>Vision agency</h3>
+                  </div>
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/2.png" alt="" />
+                </div>
+                <div class="doubleWrapper">
+                  <div class="doubleImg">
+                    <img src="img/posts/doubleImg/1.jpg" alt="" />
+                  </div>
+                  <div class="doubleItemText">
+                    <h3>Lucy-P</h3>
+                    <p>
+                      “Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim
+                      faucibus, quis posuere orci ornare. Duis mattis sagittis
+                      fringilla.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="postItem home">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/3.jpg" alt="" />
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/5.png" alt="" />
+                </div>
+                <div class="postItemText">
+                  <p>4 bedroom house for rent in lore Dubai</p>
+                  <h3>Vision Agency</h3>
+                </div>
+              </div>
+              <div class="postItem sing">
+                <div class="postItemImg">
+                  <div class="postItemHover">
+                    <a href="#" class="showMore">Show more</a>
+                  </div>
+                  <img src="img/posts/postsImg/3.jpg" alt="" />
+                </div>
+                <div class="postItemIcon">
+                  <img src="img/shopNav/navIcons/2.png" alt="" />
+                </div>
+                <div class="postItemText">
+                  <p>4 bedroom house for rent in lore Dubai</p>
+                  <h3>Vision Agency</h3>
+                </div>
+              </div>
+            </div>
+            <div class="loadMore">
+              <p>Load more</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offer">
+        <div class="container">
+          <div class="offerWrapper">
+            <div class="offerHeading">
+              <h2>What can DuHoot offer to you?</h2>
+              <p>Etiam cursus ipsum quis enim faucibus</p>
+            </div>
+            <div class="wrapperTabs">
+              <div class="tabsWrapBtn">
+                <div class="tabsBtn">
+                  <div class="tabCircle">
+                    <img src="img/offer/offerIcons/1.ico" alt="" />
+                  </div>
+                </div>
+                <span class="tabLine"></span>
+                <div class="tabsBtn">
+                  <div class="tabCircle">
+                    <img src="img/offer/offerIcons/2.ico" alt="" />
+                  </div>
+                </div>
+                <span class="tabLine"></span>
+                <div class="tabsBtn">
+                  <div class="tabCircle">
+                    <img src="img/offer/offerIcons/3.png" alt="" />
+                  </div>
+                </div>
+                <span class="tabLine"></span>
+                <div class="tabsBtn">
+                  <div class="tabCircle">
+                    <img src="img/offer/offerIcons/4.ico" alt="" />
+                  </div>
+                </div>
+                <span class="tabLine"></span>
+                <div class="tabsBtn">
+                  <div class="tabCircle">
+                    <img src="img/offer/offerIcons/5.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="tabsItems">
+                <div class="tabItem">
+                  <h3 class="tabHeading">Reality</h3>
+                  <div class="tabContent">
+                    <div class="tabContentWrap">
+                      <div class="tabImg">
+                        <img src="img/offer/offerIcons/6.png" alt="" />
+                      </div>
+                      <div class="tabText">
+                        <p>
+                          Cum sociis natoque penatibus et magnis dis parturient
+                          montes, nascetur ridiculus mus. Morbi gravida tellus
+                          in purus pharetra, vel dignissim mauris viverra.
+                          Maecenas vitae risus est. In hendrerit, massa at.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="tabContentWrap">
+                      <div class="tabImg">
+                        <img src="img/offer/offerIcons/7.png" alt="" />
+                      </div>
+                      <div class="tabText">
+                        <p>
+                          Caretra, vel dignissim mauris viverra. Maecenas vitae
+                          risus est. In hendrerit, massa at.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabItem">
+                  <h3 class="tabHeading">Reality</h3>
+                  <div class="tabContent">
+                    <div class="tabContentWrap">
+                      <div class="tabImg">
+                        <img src="img/offer/offerIcons/6.png" alt="" />
+                      </div>
+                      <div class="tabText">
+                        <p>
+                          Cum sae risus est. In hendrerit, massa at.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="tabContentWrap">
+                      <div class="tabImg">
+                        <img src="img/offer/offerIcons/7.png" alt="" />
+                      </div>
+                      <div class="tabText">
+                        <p>
+                          Cum sociis natoque penatibus et magnis dis parturient
+                          montes, nascetur ridiculus mus. Morbi gravida tellus
+                          in purus pharetra, vel dignissim mauris viverra.
+                          Maecenas vitae risus est. In hendrerit, massa at.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabItem">
+                  <h3 class="tabHeading">Reality</h3>
+                  <div class="tabContent">
+                    <div class="tabContentWrap">
+                      <div class="tabImg">
+                        <img src="img/offer/offerIcons/6.png" alt="" />
+                      </div>
+                      <div class="tabText">
+                        <p>
+                          Cum sociis natoque penatibus et magnis dis parturient
+                          montes, nasus pharetra, vel dignissim mauris viverra.
+                          Maecenas vitae risus est. In hendrerit, massa at.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="tabContentWrap">
+                      <div class="tabImg">
+                        <img src="img/offer/offerIcons/7.png" alt="" />
+                      </div>
+                      <div class="tabText">
+                        <p>
+                          Cum sociis natoque penatibus et magnis dis parturient
+                          montes, nascetur ridiculus mus. Morbi gravida tellus
+                          in purus pharetra, vel dignissim mauris viverra.
+                          Maecenas vitae risus est. In hendrerit, massa at.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabItem">
+                  <h3 class="tabHeading">Reality</h3>
+                  <div class="tabContent">
+                    <div class="tabContentWrap">
+                      <div class="tabImg">
+                        <img src="img/offer/offerIcons/6.png" alt="" />
+                      </div>
+                      <div class="tabText">
+                        <p>
+                          Cum sociis natoque penatibus et magnis dis parturient
+                          montes, nascetur ridiculus mus. Morbi gravida tellus
+                          in ps vitae risus est. In hendrerit, massa at.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="tabContentWrap">
+                      <div class="tabImg">
+                        <img src="img/offer/offerIcons/7.png" alt="" />
+                      </div>
+                      <div class="tabText">
+                        <p>
+                          Cum sociis natoque penatibus et magnis dis parturient
+                          montes, nascetur ridiculus mus. Morbi gravida tellus
+                          in purus pharetra, vel dignissim mauris viverra.
+                          Maecenas vitae risus est. In hendrerit, massa at.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabItem">
+                  <h3 class="tabHeading">Reality</h3>
+                  <div class="tabContent">
+                    <div class="tabContentWrap">
+                      <div class="tabImg">
+                        <img src="img/offer/offerIcons/6.png" alt="" />
+                      </div>
+                      <div class="tabText">
+                        <p>
+                          Cum sonas vitae risus est. In hendrerit, massa at.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="tabContentWrap">
+                      <div class="tabImg">
+                        <img src="img/offer/offerIcons/7.png" alt="" />
+                      </div>
+                      <div class="tabText">
+                        <p>
+                          Cum sociis nat. In hendrerit, massa at.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <form action="path" class="footerForm">
+          <h3 class="footerFormHeading">Subscribe to our newsletter</h3>
+          <div class="formFooterWrapper">
+            <img src="img/footer/footerForm/1.png" alt="" />
+            <input type="email" placeholder="your@email.com" />
+            <input type="submit" value="subscribe" class="subscribe" />
+          </div>
+        </form>
+        <div class="footerText">
+          <div class="footerTextItem">
+            <h4>Ipsum quis</h4>
+            <p>
+              Aliquam quis Pulvinar purus Etiam cursus Ipsum quis Enim faucibus
+            </p>
+          </div>
+          <div class="footerTextItem">
+            <h4>Ipsum quis</h4>
+            <p>
+              Aliquam quis Pulvinar purus Etiam cursus Ipsum quis Enim faucibus
+            </p>
+          </div>
+          <div class="footerTextItem">
+            <div class="footerTextItemInner">
+              <h4>Follow us</h4>
+              <div class="footerIcons">
+                <a href="#"
+                  ><img src="img/footer/footerIcons/1.png" alt=""
+                /></a>
+                <a href="#"
+                  ><img src="img/footer/footerIcons/2.png" alt=""
+                /></a>
+                <a href="#"
+                  ><img src="img/footer/footerIcons/3.png" alt=""
+                /></a>
+                <a href="#"
+                  ><img src="img/footer/footerIcons/4.png" alt=""
+                /></a>
+              </div>
+              <p class="copyright">
+                Copyright © All Rights reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="popupLogIn" id="popupLogin">
+      <div class="popupBody">
+        <a href="#header" class="popupArea"></a>
+        <div class="popupContent">
+          <a href="#header" class="popupClose">X</a>
+          <div class="popupHeading">
+            <h3>login , please</h3>
+          </div>
+          <form action="#" class="popupForm">
+            <div class="loginEmail">
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="loginPassword">
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login to account" class="loginSubmit" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
